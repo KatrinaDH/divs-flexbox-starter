@@ -101,6 +101,15 @@ html {
   height: 100%;
 }
 
+header {
+  color: #fff;
+  display: flex;
+  font-size: 3em;
+  font-weight: bold;
+  height: 20%;
+  padding-left: 1.15rem;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
@@ -108,11 +117,21 @@ body {
   height: 100%;
 }
 
+.about {
+  color: #fff;
+  display: flex;
+  border-bottom: #fff solid .11rem;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  padding: 0 0 1.5em 1.15em;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   font-weight: 700;
   justify-content: space-between;
+  padding: 1rem 0;
 
 }
 
@@ -124,14 +143,22 @@ body {
   justify-content: center;
   line-height: 1.5em;
   font-size: 1em;
-  height: 300px;
+  height: 200px;
+  padding: 0 30px;
   width: 30%;
 }
 
 .div-1, .div-2 {
-  border-right: #fff solid;
-  border-width: thin;
-  padding: 0 30px 0 0;
+  border-right: #A9A9A9 solid .11rem;
+}
+
+footer {
+  align-items: flex-end;
+  color: #fff;
+  display: flex;
+  border-top: #fff solid .11rem;
+  justify-content: center;
+  height: 25%;
 }
 
 
